@@ -1,9 +1,7 @@
 const fs = require("fs/promises");
+const path = require("path");
 
-/*
- * Розкоментуй і запиши значення
- * const contactsPath = ;
- */
+const contactsPath = path.join(__dirname, "contacts.json");
 
 // TODO: задокументувати кожну функцію
 function listContacts() {
